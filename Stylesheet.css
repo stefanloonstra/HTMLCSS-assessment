@@ -1,0 +1,107 @@
+body {
+	background-color: black;
+	font-family: sans-serif;
+	color:white	; 
+	position: relative;
+}
+
+
+.header  {			/* This is the header of the webpage*/
+	width: 75%;
+	text-align: center;
+	position: relative;
+	margin:0px auto;
+	font-size: 50px;
+	color:white ;
+	background-color: rgb(100,20,50);
+	height: 80px;
+	text-shadow: 5px 10px 10px;
+}
+#pictureRight {			/* This is the right picture in the header */
+	position: absolute;
+	top: 0px;
+	right: 0%;
+	height: 80px;
+}
+#pictureLeft {			/* this is the left picture in the header */
+	position: absolute;
+	top: 0px;
+	left:0px ;
+	height: 80px;
+}
+.header ul {
+	text-align: center;	
+	position: relative;
+	bottom:20px;
+}
+.header li { 
+	display: inline-block;
+	margin: 15px;
+	font-size: 15px;
+}
+.header a {
+	text-decoration: none;
+	color: white;
+}
+.header ul a:hover {
+	text-decoration: underline;
+	color:black;
+}
+
+
+.mainContentText {			/* This is the main content on the web page */
+	width:900px;
+	margin:0px auto;
+	text-align:center;
+	position: relative;
+	top:45px;
+	}
+.mainContentText h2 {
+	font-size: 25px;
+	text-align: center;
+}
+.mainContentText p {
+	position: relative;
+	top:25px;
+	font-size: 15px;
+	text-align: left;
+}
+.mainContentText p:first-child {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+.footer {			/* This is the footer */
+	width: 100%;	
+	position: fixed;
+	bottom:0;
+	z-index: 99;
+	background-color: rgb(100,20,50);
+	text-align: center;
+}
+ .footer a {
+	color:white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.footer li {
+	display: inline-block;
+	margin: 20px;
+	font-size: 15px;
+}
+
+
+form li {			/* This is the forum in the contact page */
+	list-style: none;
+	margin-bottom: 20px;
+}
+label {
+	display: block;
+	cursor:pointer;
+}
+textarea {
+	width: 400px;
+	height: 200px;
+}
+
